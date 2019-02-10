@@ -19,4 +19,4 @@ person_birthmonth = int (input ('Введите месяц даты рожден
 person_birthyear = int(input ('Ввведите год даты рождения: '))
 print('Количество прожитых лет: ' , int(my_year) - int(person_birthyear))
 print('Количество прожитых месяцев: ' ,(int((my_year) - int(person_birthyear)) * 12 ) - int(person_birthmonth))
-print('Количество прожитых дней: ' , int(((my_year) - int(person_birthyear) )* 360) - int(person_birthday))
+print('Количество прожитых дней: ' , int(((my_year) - int(person_birthyear) ) * 360) - int(person_birthday))
