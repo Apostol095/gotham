@@ -6,6 +6,11 @@ b = input('Введите число: ')
 a = int(float(a))
 b = int(float(b))
 s = 0
-for i in range (abs(a), abs(b+1)):
-    s = s+i
-print (s)
+if a>b:
+    for i in range(abs(b), abs(a + 1)):
+        s = s + i
+    print(s)
+else:
+    for i in range(abs(a), abs(b + 1)):
+            s = s + i
+    print (s)
